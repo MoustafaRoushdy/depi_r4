@@ -1,0 +1,34 @@
+1. Dir is just a ( folder )
+2. command <argument> <options>
+3. echo $HOME
+4. echo ~
+5. cd ( change directory )
+6. mkdir ( make directory )
+7. ls <dir> list files and directories
+8. there are two types of commands in linxu
+9. shell builtin like (echo, type, ls, cd, ...)
+10. external command or file usually in /usr/bin or /bin
+11. touch <filename>   to create a new file
+12. mkdir -p           to create directory with it's parents 
+13. rm <filename>      remove a file
+14. rm -r <dirname>    to remove a directory with all it's content
+15. rmdir <dirname>    to remove an empty directory
+16. mv source destination to rename a file or move a file from a dir to another dir
+17. type <command name> to see if a command is shell builtin or a file
+
+
+
+1. cd ..  to change directory to the parent directory for current directory (. is current dir, .. is parent dir)
+2. tar -cvf <arch filename> <files of file> 
+-c for create
+-v for verbose
+-f for file
+3. gzip <filename> will compress the file with .gz extension
+4. tar with -z option will arch and compress the files using gzip
+5. cat to display content of a file
+6. zcat to display conent of compressed file
+7. grep <pattern> <filename> to find a pattern in a file
+8. grep -r <pattern> <dir> to find a pattern in all files in a dir
+9. find <dir> -name <filename> 
+dir to search in 
+filename file you are searching for
