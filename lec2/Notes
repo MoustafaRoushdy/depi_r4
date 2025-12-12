@@ -4,3 +4,17 @@
 2>> to append stderror to a file
 &> to redirect both stdout and stderror to a file
 sudo to run command as root
+
+
+version.major.minor
+version > breaking change
+major   > new features
+minor   > patches or bug fixes
+uname => get info about the system
+uname -r => get kernel version
+
+
+lsblk to list your harddisk
+lshw  to list all hardware
+lscpu to list cpus
+lsmem to list memory
