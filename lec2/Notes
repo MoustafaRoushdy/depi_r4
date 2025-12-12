@@ -19,3 +19,10 @@ lshw  to list all hardware
 lscpu to list cpus
 lsmem to list memory
 dmsg to print kernel messages
+
+
+
+sudo -i OR sudo su - to switch to the root user
+systemctl get-default => get the current target
+systemctl set-default => to set a new target
+file <filename> => display file type and info about the file
