@@ -1,0 +1,6 @@
+>  to redirect stdout to a file
+>> to append stdout to a file
+2> to redirct stderror to a file
+2>> to append stderror to a file
+&> to redirect both stdout and stderror to a file
+sudo to run command as root
