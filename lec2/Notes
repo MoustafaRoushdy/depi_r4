@@ -18,3 +18,4 @@ lsblk to list your harddisk
 lshw  to list all hardware
 lscpu to list cpus
 lsmem to list memory
+dmsg to print kernel messages
