@@ -1,0 +1,43 @@
+shell is allowing us to communicate with the operating system
+bash (bourn again shell) is the most popular shell
+echo $SHELL to get current shell used
+chsh -s <shellpath> <username> to change a shell of a user
+bash allow us to use tab completion and expansion 
+* => all 
+{1..100} from 1 to 100
+{1,3,7} 1 , 3 , 7 
+alias t="tar -cvzf"
+to autoload this alias add it to your {.bashrc,.profile} => both file autoload when you open new shell
+env => to print all env variables
+x=y to set env variable
+export x=y to set env variable and make it readable to all children proccess
+to autoload it to each shell => add to .bashrc or .profile
+echo $PATH to print the path env varialbe ( has all binaries directories )
+which <command> to display the command full path
+whatis <command> to display the usage of a command
+PS1 => env var that display the prompot for your ( echo $PS1 )
+
+
+
+
+command --help  => to see how to use a commmand
+man command     => to open maual page of the command
+
+\u  username
+\h  short hostname
+\H  full hostname
+\w  current directory
+\W  basename of cwd
+\d  date
+\t  time (24h HH:MM:SS)
+\T  time (12h)
+\@  time (am/pm)
+\A  time (24h HH:MM)
+\$  # if root, $ otherwise
+\#  command number
+\!  history number
+\n  new line
+\e  escape character
+\[  start non-printing
+\]  end non-printing
+
