@@ -17,6 +17,30 @@ which <command> to display the command full path
 whatis <command> to display the usage of a command
 PS1 => env var that display the prompot for your ( echo $PS1 )
 
+/etc/passwd  users info
+getent passwd to display the /etc/passwd ( cat /etc/passwd )
+/etc/shadow  users encrypted passwords
+/etc/group  groups info
+getent group to display the /etc/group ( cat /etc/group )
+User Account vs System Account vs Superuser Account
+can login       can't login       root 
+
+useradd <username> add new user to the server
+groupadd <groupname> add new group to the server
+groupadd -g <groupname> to set the group id while creating it
+passwd <username> update password for a user
+usermod <options> <username> to udpate a user
+-s <shellpath> to set the user login shell
+-u <user id> to set the user id
+-g <groupname> to set the main group of the user
+-aG <groupname> to add a new group to the user
+id <username> to display info about a user
+userdel <username>  to delete a user
+groupdel <groupname> to delete a group
+/etc/sudoers have users and groups sudo permissions
+visudo to edit /etc/sudoers
+sudo -l to display your sudo permissions
+
 
 
 
