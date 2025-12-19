@@ -1,0 +1,14 @@
+chmod <perm> <filename>  => to change file permissions
+u , g , o 
++ , - 
+r , w, x 
+Example chmod u+rx,g+w,o-rwx file.txt
+x  => 2^0 =1
+w  => 2^1 =2
+r  => 2^2 =4
+chomd 740 file.txt
+chown <user>:<group> <filename>  to change owner OR group OR both of a file
+chown <user> <filename>
+chown :<group> <filename>
+chgrp <group> <filename>  to change the group of a file
+chown/chmod -R <dirname> to change ownership or perm recursivly 
