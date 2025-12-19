@@ -12,3 +12,18 @@ chown <user> <filename>
 chown :<group> <filename>
 chgrp <group> <filename>  to change the group of a file
 chown/chmod -R <dirname> to change ownership or perm recursivly 
+
+page: 107-114
+pulic key
+private key ( treated as a secret )
+1. Generate a key pair ( using ssh-keygen -t <type> )
+	a. this will generate a private and a publiceky with .pub extension
+2. add your public key to the remote server
+        a. add manually to the file ~/.ssh/authorized_keys
+        b. ssh-copy-id -i <publickey> user@host
+3. Authenticate using you private key 
+	a. ssh -i <privatekey> user@host
+	b. scp  i <privatekey> <source> user@host:<destination> => to copy file/s
+	b. scp -r i <privatekey> <source> user@host:<destination> -> copy dir
+
+If you add your private key to ~/.ssh/ , you don't have to use -i option every time to pass the privatekey
