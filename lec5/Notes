@@ -1,0 +1,22 @@
+i => for insert mode
+esc => command mode
+:   => last line mode
+:w  => write or save
+j,k down,up
+h,l left,right
+:q  => quit or exit
+:q! => without saving
+:wq => save and quit
+p  => paste the line
+dd => delete a line
+yy => copy a line
+u  => for undo
+ctr + r => for redo
+d5d => delete 5 lines
+y4y => copy 4 line
+/test search for test keyword
+n => next ( next find )
+N => ( previous find )
+x => to delete a single char 
+
+vimtutor => to learn advanced vim
