@@ -20,3 +20,18 @@ N => ( previous find )
 x => to delete a single char 
 
 vimtutor => to learn advanced vim
+
+
+alias ansible_host=<ip> ansible_user=<username> ansible_ssh_pass=<password>
+
+[groupname]
+alias1
+alias2
+
+[groupname:children]
+group1
+group2
+
+
+Lab link: https://kodekloud.com/studio/labs/ansible/inventory
+Free course: https://learn.kodekloud.com/user/courses/jinja2-basics-mini-course
