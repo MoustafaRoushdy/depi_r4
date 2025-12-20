@@ -1,0 +1,44 @@
+# key/value
+
+name: ahmed
+age: 19
+
+
+#Array/List
+
+- orange
+- mango
+- banan
+
+
+# map,disctionary
+employee: 
+  name: ahmed
+  age: 19
+
+
+fruits: 
+  - orange
+  - mango
+  - banana
+
+# this is also a list
+vegetables: [ tomato, cucumber, potato ]
+
+
+employees:
+  - employee1:
+      name: ahmed
+      age: 19
+  - employee2:
+      name: mohamed
+      age: 20
+
+
+
+each key has a single value
+identiation spaces are very important in yaml
+# is the comment char in yaml
+lists are ordered while map/dic are not
+Youtube link: YAML Explained: A Beginner's Guide in 10 Minutes
+Free Course link: https://learn.kodekloud.com/user/courses/json-path-test-free-course  (only first lect and first lab)
