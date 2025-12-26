@@ -1,0 +1,16 @@
+1. Add you inventory file path in your config file
+2. Search about what to change in your "ansible.cfg" file
+3. Create ansible playbook to create a file in you homedir
+4. make sure that group has rx perm
+5. ansible-playbook <playbook.yml> to run the playbook
+6. ansible-doc <modulename> to read docs of a certain module
+
+
+
+
+
+
+
+
+
+

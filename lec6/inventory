@@ -1,0 +1,2 @@
+[db]
+db0 ansible_host=100.31.237.147 ansible_ssh_private_key_file=./db.pem ansible_user=ec2-user

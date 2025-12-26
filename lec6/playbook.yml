@@ -1,0 +1,8 @@
+- name: Create file in my homedir
+  hosts: all
+  tasks:
+    - name: Ensure file file1.txt exists
+      file:
+        path: /home/ec2-user/file1.txt
+        state: touch 
+        mode: '0777' 

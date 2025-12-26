@@ -1,0 +1,3 @@
+1. ansible -a "<command> -i inventory <hosts> 
+exmpale 
+ansible -a "ls -l ~" -i inventory all
