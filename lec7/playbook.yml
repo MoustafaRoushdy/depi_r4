@@ -1,0 +1,21 @@
+---
+- name: Create Users
+  hosts: localhost
+  tasks:
+    - name: Ensure that user Kerols exists
+      become: true
+      user:
+        name: kerols
+        shell: /bin/bash
+        groups: admin
+
+    - name: Ensure /home/moustafa/test exist
+      become: false
+      file:
+        path: /home/moustafa/test
+        state: directory
+    - name: Ensure my name exist in the file x
+      lineinfile:
+        path: /home/moustafa/test/x
+        create: true
+        line: "Hello World!"

@@ -1,0 +1,6 @@
+become: true => to run the playbook or a task as root
+-K to be prompted to enter the become password
+--syntax-check => to check your playbook syntax
+--check => to see what will change from your playbook
+--diff  => to see files difference 
+-vvv    => to run the playbook in the verbose mode
