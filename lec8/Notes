@@ -11,3 +11,7 @@
 6. sudo apt search <packagename> => search for a package 
 7. sudo dpkg -i <debian file> => to install a package
 8. sudo dpkg -r <packagename> => to remove a package
+
+
+
+system modules, file modules, command module

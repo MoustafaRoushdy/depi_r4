@@ -1,0 +1,15 @@
+---
+- name: Ensure that nginx is installed, started, enabled, configured
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Ensure that nginx is installed
+      apt:
+        name: nginx
+        state: latest
+        update_cache: true
+    - name: Ensure that nginx is started and enabled
+      service:
+       name: nginx
+       state: started
+       enabled: true

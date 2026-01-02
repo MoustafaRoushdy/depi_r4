@@ -15,5 +15,7 @@
       user:
         name: "{{ user_details.name }}"
         uid: "{{ user_details.id }}"
-   - name: print a message
-     command: 'echo "Hello {{ user_details.name }}"'
+    - name: print a message
+      command: 'echo "Hello {{ user_details.name }}"'
+
+   

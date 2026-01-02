@@ -1,0 +1,4 @@
+1. copy my configure nginx playbook 
+2. make sure that nginx listens on port 90 ( use replace module )
+3. https://kodekloud.com/studio/labs/ansible/modules 
+execlude q8,q10-15
