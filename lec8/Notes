@@ -1,3 +1,13 @@
 1. variables can be defined in the inventory file or playbook or others
 2. variables type = string, boolean, number, list, dictionary
 3. "{{ var_name }}" 
+
+
+
+1. sudo apt update => download information about packages and their versions
+2. sudo apt upgrade <packagename> => upgrade the package to latest version
+4. sudo apt install <packagename> => install a package
+5. sudo apt remove <packagename> => remove a packageubuntu.sources
+6. sudo apt search <packagename> => search for a package 
+7. sudo dpkg -i <debian file> => to install a package
+8. sudo dpkg -r <packagename> => to remove a package
