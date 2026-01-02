@@ -1,0 +1,19 @@
+---
+- name: Ensure that a user exisst
+  hosts: all
+  become: true
+  vars: 
+   users: # [ "ahmed", "mohamed", "mahmoud"] 
+    - ahmed
+    - mohamed
+    - mahmoud
+   user_details:
+     name: ahmed
+     id: 1020
+  tasks:
+    - name: create a user
+      user:
+        name: "{{ user_details.name }}"
+        uid: "{{ user_details.id }}"
+   - name: print a message
+     command: 'echo "Hello {{ user_details.name }}"'
