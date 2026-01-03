@@ -11,3 +11,7 @@ docker images => to list images
 docker rmi <image name> => to remove image
 docker container prune => to delete all stopped containers
 docker image prune -a => to delete all unused images
+
+Free Docker Course
+https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner
+
