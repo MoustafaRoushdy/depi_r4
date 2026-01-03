@@ -1,0 +1,13 @@
+docker pull <imagename> => to download image from dockerhub
+docker run <imagename> => to create and start container from an image
+-d => to run in detached mode
+--name => to give the container a name
+docker ps => to list all running containers
+docker ps -a => to list all containers
+docker stop <container name> => to stop a container 
+#you have to stop a container to be able to delete it 
+docker rm <container name> => to delete an image
+docker images => to list images
+docker rmi <image name> => to remove image
+docker container prune => to delete all stopped containers
+docker image prune -a => to delete all unused images
