@@ -1,0 +1,18 @@
+page 98-107
+1. ip link => show the network devices and their status
+ip link set dev <devname> up/down
+2. ip a    => show the network devices ip addresses
+3. ip a add <ip> dev <devicename> => to add a new ip to your device
+4. ip r => to show rout table, route => to show route table 
+ip r add <cidr> via <router ip> 
+5. traceroute <host> => shows all hops to the destination host
+6. telnet <host> <port> => to test connectivity to a specific port on a specific host 
+7. ss ( successor netstat ) => to show listening serices in a host
+ss -l for listen, -t for tcp, -u for udp, -n for number, -p for process 
+
+
+Steps: 
+1. ip link
+2. nslookup 
+3. traceroute
+4. ss
