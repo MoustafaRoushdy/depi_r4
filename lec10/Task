@@ -1,0 +1,3 @@
+run a promtheus server using docker container
+publish container port 9090 int host port port 5050
+try to access it 

@@ -16,3 +16,12 @@ Steps:
 2. nslookup 
 3. traceroute
 4. ss
+
+
+
+Docker commands
+1. docker run <image>
+2. docker run <image> <command>
+3. docker run -i <image> <command> => interactive mode
+4. docker run -it <image> command> => interactive terminal
+5. docker run -p <hostport>:<containerport> <image>
