@@ -1,0 +1,5 @@
+1. Create account on docker hub
+2. https://docs.docker.com/get-started/workshop/02_our_app/ use the code and same docker file to build an image
+3. tag the image with <your docker hub account name>/<imagename>:<tag>
+4. run docker login 
+5. run docker push <your image name> 
