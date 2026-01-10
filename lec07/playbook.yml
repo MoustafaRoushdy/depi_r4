@@ -1,21 +1,23 @@
 ---
 - name: Create Users
   hosts: localhost
+  become: true
+  vars:
+     name: "ahmed_user"
   tasks:
     - name: Ensure that user Kerols exists
       become: true
       user:
-        name: kerols
+        name: "{{ name }}"
         shell: /bin/bash
         groups: admin
 
     - name: Ensure /home/moustafa/test exist
-      become: false
       file:
-        path: /home/moustafa/test
+        path: /home/{{ name }}/test
         state: directory
     - name: Ensure my name exist in the file x
       lineinfile:
-        path: /home/moustafa/test/x
+        path: /home/{{ name }}/test/x
         create: true
         line: "Hello World!"
