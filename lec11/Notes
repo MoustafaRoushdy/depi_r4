@@ -1,0 +1,10 @@
+to build an image
+1. docker build -t <iamge> . => to build an image 
+2. Dockerfile must be names exactly like that 
+3. docker history <image> => to see layers of an image
+
+
+1. use a ligth weight base image
+2. Don't run your containers as root user
+3. Copy the code after installing the dependencies
+4. minimize the number of layers
