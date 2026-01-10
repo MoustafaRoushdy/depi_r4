@@ -3,3 +3,13 @@
 3. tag the image with <your docker hub account name>/<imagename>:<tag>
 4. run docker login 
 5. run docker push <your image name> 
+
+
+1. reminder of a great course https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner
+2. interactive playground to learn docker https://training.play-with-docker.com/
+3. docker challenges: https://engineer.kodekloud.com/curriculum
+
+
+1. linux Basics and Networking Assigments 
+2. lab link: https://kodekloud.com/studio/labs/docker/docker_run
+3. lab link: https://kodekloud.com/studio/labs/docker/docker_images
