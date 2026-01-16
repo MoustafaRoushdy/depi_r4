@@ -1,0 +1,5 @@
+1. in the Dockerfile ENV key=value => to set env var in a Dockerfile
+2. to get the env vars from an image => docker inspect <imagename>
+3. to get env vars for a container => docker inspect <container id>
+4. to set env var to a container use => docker run -e key=value
+
