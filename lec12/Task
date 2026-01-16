@@ -1,0 +1,7 @@
+1. Create a container from the httpd image
+2. mount /usr/local/apache2/htdocs (inside the container) to your current working dir
+3. create html file with Hello <yourname> 
+4. Test, test , test , test
+
+
+docker run -v <hostpath>:<containerpath>
