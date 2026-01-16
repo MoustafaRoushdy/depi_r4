@@ -3,3 +3,17 @@
 3. to get env vars for a container => docker inspect <container id>
 4. to set env var to a container use => docker run -e key=value
 
+
+
+lsblk => to see disks and partitions
+file -s /dev/<devname> => to display info about specific dev (disk,part)
+mount <devname> <mount point> => to mount a part to a sepecfic dir
+to persist you need to add that to /etc/fstab
+fdisk => to create a partition from a disk
+n to create new partition 
+w to write the partition ( to save changes)
+mkfs.<fsname> | mkfs -t <fsname>  ==> xfs, ext4, ext3
+mount -a => to apply the /etc/fstab file now
+by default fstab file is read during boot
+
+
