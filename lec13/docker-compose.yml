@@ -1,0 +1,14 @@
+services:
+  mysql:
+    image: mariadb:latest
+    container_name: db
+    environment:
+      MARIADB_USER: karim
+      MARIADB_PASSWORD: iyP@ss
+      MARIADB_DATABASE: mysql
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: true
+  php:
+    build: .
+    ports:
+      - "8080:80"
+

@@ -1,0 +1,8 @@
+improve my docker compose by
+1. use env var to connect to the database instead of hardcoding the values
+2. add a volume to the database
+
+https://kodekloud.com/studio/labs/docker/docker_compose
+--link is a deprecated option
+
+Assigment 2
