@@ -16,4 +16,5 @@ CMD vs Entrypoint Notes
 3. when come together CMD act as argument to Entrypoint
 
 
-
+containers registries
+1.  <registry url>/<namespace>/<repo>:<tag>
