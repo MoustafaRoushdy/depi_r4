@@ -10,4 +10,10 @@ Network Notes
 3. to connect a container to a network "docker run --network <networkname>
 
 
+CMD vs Entrypoint Notes
+1. Entrypoint can'e be overwritten ( can only by --entrypoint option)
+2. CMD can be overwritten 
+3. when come together CMD act as argument to Entrypoint
+
+
 
