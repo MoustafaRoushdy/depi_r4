@@ -1,3 +1,13 @@
+Volumes Notes
 1. docker saves all it's data under /var/lib/docker
 2. you manage volume by run "docker volume"
 3. to use volume mount "docker run -v <volumename>:<contairpath>"
+
+
+Network Notes
+1. Bridge network, host network, none network
+2. you manage network by run "docker network"
+3. to connect a container to a network "docker run --network <networkname>
+
+
+
