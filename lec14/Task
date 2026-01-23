@@ -5,3 +5,11 @@
 	1. echo "First step"
         2. echo "second step"
         3. echo "third step"
+
+
+1. Create a credentials in jenkins with your email and password of dockerhub (manage jenkins => credentials)
+2. install docker pipeline plugin ( manage jenkins => plugins )
+3. on your server run ( sudo usermod -aG docker jenkins, sudo systemctl restart jenkins)
+4. create a job called secondjob, select it's type to be pipeline
+5. select Helloworld pipeline, edit the pipeline to add script directiv einside the steps
+6. build and push to dockerhub => to get docker url "cat ~/.docker/config.json"
