@@ -1,0 +1,7 @@
+1. using jenkins docs: https://www.jenkins.io/doc/book/installing/linux/ install jenkins
+2. install firefox if not already installed
+3. open jenkins using localhost:8080, install suggested plugins 
+4. create a job called "first_job" with three steps
+	1. echo "First step"
+        2. echo "second step"
+        3. echo "third step"
