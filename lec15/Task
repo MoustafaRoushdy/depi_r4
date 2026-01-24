@@ -1,3 +1,6 @@
 1. Create a repo in github
 2. add your code to it ( php, python, node ) with the Dockerfile and add a Jenkinsfile to it
 3. Configure your pipeline to get the pipeline from github and the sourcecode
+
+4. Add a new stage to deploy your application
+5. prompt the user to accept the deployment before it happens ( input )
