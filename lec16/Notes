@@ -1,0 +1,8 @@
+1. k version => to get cluster verison 
+2. k get node => to get info about the cluster nodes
+3. k get node -o wide => to get more info about the cluster nodes
+4. k get pod => to get info about cluster pods
+5. k get pod -o wide => to get more info about cluster pods
+6. k run <podname> --image <imagename> => to run a pod
+7. k describe pod <podname> => to get all info about a specific pod
+8. k delete pod <podname> => to delete a pod
