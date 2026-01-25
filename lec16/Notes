@@ -6,3 +6,12 @@
 6. k run <podname> --image <imagename> => to run a pod
 7. k describe pod <podname> => to get all info about a specific pod
 8. k delete pod <podname> => to delete a pod
+
+
+ReplicaSet
+1. k get rs => to get info about replicasets
+2. k edit rs <rsname> => to edit a replicaset
+3. k delete rs <rsname> => to delete a rs
+4. k scale rs <rsname> --replicas <numberofpods> => to scale a replicaset
+5. k api-resources => to get the api version and kind of k8s resources
+6. Note matchlables must be equal to labes in the template
