@@ -6,6 +6,7 @@
 6. k run <podname> --image <imagename> => to run a pod
 7. k describe pod <podname> => to get all info about a specific pod
 8. k delete pod <podname> => to delete a pod
+9. k run <podname> --image <imagename> --dry-run=client -o yaml > mypod.yml => to create a yaml file for the pod
 
 
 ReplicaSet
@@ -15,3 +16,16 @@ ReplicaSet
 4. k scale rs <rsname> --replicas <numberofpods> => to scale a replicaset
 5. k api-resources => to get the api version and kind of k8s resources
 6. Note matchlables must be equal to labes in the template
+7. k create -f <filename>  => create a resource
+8. k delete -f <filename>  => delete a resource
+9. k apply -f <filename>   => edit a resource ( or create it ) 
+
+
+Deployment
+1. k create deployment <deployname> --image <imagename> => to create a deployment
+2. k create deployment <deployname> --image <imagename> --dry-run=client -o yaml > mydeply.yml => to create a yaml file for the deployment
+3. k get deploy => to get info about the deploy
+4. k describe deploy <deployname> => to get all info about a specific deployment
+5. k edit deploy <deployname> => to edit deploy
+
+
