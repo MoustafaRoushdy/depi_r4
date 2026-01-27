@@ -1,0 +1,4 @@
+lab1: https://kodekloud.com/studio/labs/kubernetes/deployments-stable
+lab2: https://kodekloud.com/studio/labs/kubernetes/rolling_rollback_updates-stable
+
+Install kind: https://kind.sigs.k8s.io/docs/user/quick-start/#installation
