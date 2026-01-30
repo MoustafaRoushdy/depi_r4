@@ -1,0 +1,10 @@
+k create svc <svcname> => to create a svc
+k expose <type> <resourename> --port <svcport> --targetport <podport> --name <svcname>
+k get ep => to get the endpoint of all services
+k get svc => to get a list of services
+k describe svc <svcname> => to get details about a specific svc
+k edit svc <svcname> => to edit a svc
+k delete svc <svcname> => to delete a svc
+
+svc = service
+ep  = endpoint

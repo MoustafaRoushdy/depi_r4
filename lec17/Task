@@ -1,0 +1,4 @@
+1. Create a deployment from your php application (3 replicas)
+2. create a deployment from mysql database ( 2 replicas )
+3. Create a service for the mysql deployment
+see lec13
