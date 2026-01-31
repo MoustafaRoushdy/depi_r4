@@ -1,0 +1,5 @@
+1. edit the index.php file to use env vars
+2. build a new image from the new file  and push it to your dockerhub
+3. edit the deployment of the php app to 
+   a. use the new images pushed to dockerhub
+   b. use env vars 
