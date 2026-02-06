@@ -1,0 +1,5 @@
+1. delete all old resources in you k8s cluster
+2. create a new dir called lec19_task
+3. add all your yaml files in this directory
+4. update you deploy of php,mysql to use config map
+5. screenshots of all your yaml files and the app working
