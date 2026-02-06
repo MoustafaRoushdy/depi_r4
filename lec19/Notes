@@ -1,0 +1,1 @@
+k create cm <cm name> --from-literal=key=value => to create a config map
