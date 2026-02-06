@@ -4,3 +4,7 @@
 4. update you deploy of php,mysql to use config map
 5. screenshots of all your yaml files and the app working
 6. remove the database pass from the cm and add it as a secret
+
+
+1. use k8s docs to create a daemonset
+2. use prometheus agent image ( search in dockerhub )
