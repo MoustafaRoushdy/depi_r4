@@ -3,3 +3,4 @@
 3. add all your yaml files in this directory
 4. update you deploy of php,mysql to use config map
 5. screenshots of all your yaml files and the app working
+6. remove the database pass from the cm and add it as a secret
