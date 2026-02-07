@@ -13,3 +13,9 @@
    b. use the pvc created in point 2 
    c. search where mysql stores it's (which directory inside the container )
       and mount the volume in this directory
+
+
+1. Create a stateful set using mysql:9.4 image
+	a. replicas = 4
+        b. service name = my-database
+        c. use mysql client image to test connectivity to each pod
