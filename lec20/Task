@@ -1,0 +1,15 @@
+1. use k8s docs to create a pv, make sure that the storageclass: ""
+    a. size = 10M
+    b. name = database-volume
+    c. reclaim policy = retain
+    hostpath:
+     type: Directoyr
+     path: /mnt/data
+2. use k8s docs to create a pvc, make sure that the storageclass: ""
+    a. size = 10M 
+    b. name = database-claim 
+3. create a pod using mysql:9.4 image
+   a. nodeName: <name of the node>
+   b. use the pvc created in point 2 
+   c. search where mysql stores it's (which directory inside the container )
+      and mount the volume in this directory
