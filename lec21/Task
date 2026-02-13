@@ -2,3 +2,4 @@
    a. mount the config file from host to container ( see docs )
 2. start two servers, install prometheus node exporter on them 
 3. edit the config file to allow prometheu to monitor these two servers
+4. Try reloading promehteus "docker restart -s SIGHUP <containerid>"
