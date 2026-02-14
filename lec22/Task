@@ -5,3 +5,14 @@
    d. mount this file to your container
 2. use fallocate tool to create a very big file to trigger this alarm
 
+1. Install and configure alert manager as a docker container
+2. edit prometheus configuration ( add the alert manager to it )
+3. create docker compose file for both 
+4. create a depencey between them 
+5. read about timeseried database in the docs and presist it, same for alert manager
+see: https://prometheus.io/docs/prometheus/latest/installation/#volumes--bind-mount
+
+6. copy any exmaple of alert manager config and update it to fire two notifications
+  a. telegram notificatoin 
+  b. mail notification
+
