@@ -1,0 +1,7 @@
+1. Create an alert when disk usage is above 80 %
+   a. create an "alert.yml" file and copy it's content from the docs
+   b. edit the example to include your expression
+   c. add this file to the rules_files section in prometheus.yml
+   d. mount this file to your container
+2. use fallocate tool to create a very big file to trigger this alarm
+

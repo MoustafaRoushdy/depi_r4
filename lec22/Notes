@@ -1,0 +1,7 @@
+metric{lables} 
+ @ modifier => to get the metric at a specfic point of time using (epoch time stamp)
+ offset     => to get the metric from a certain time
+ []         => to get a range of values 
+
+
+time series => a metric with a uniqu lables
