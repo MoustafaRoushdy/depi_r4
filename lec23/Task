@@ -1,0 +1,6 @@
+1. Add grafana to your docker  compose file
+   a. persist the grafana data
+   b. add the correct env var to specify the user name and password
+   c. add dependency between grafana and prometheus 
+2. in grafana add prometheus as data source by it's service name 
+3. import a dashboard of the node exporter
