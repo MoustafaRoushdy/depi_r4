@@ -10,3 +10,27 @@
 10. remove the line that starts with "include"
 11. run ngint -t ( to verify that your conf is correct )
 12. run systemctl reload nginx ( to reload the new conf )
+
+
+Task2
+1. Install nginx on your local machine and start nginx
+  a. remove defaul server directive conf from /etc/nginx/nginx.conf
+2. you can always test specific server name using 'curl -H "Host: <servername>" http://localhost'
+3. configure two virtual hosts 
+   1. xyz.com  served from /usr/share/nginx/pythonapp  (index.html < hello from python app )
+   2. example.com served from /usr/share/nginx/rubyapp (index.html < hello from ruby app )
+4. nginx -t 
+5. systemctl reload ngnix
+6. test using curl 
+
+
+Task 3
+1. start a server and install httpd using (dnf install httpd -y )
+2. start httpd ( systemctl start httpd )
+3. configure nginx to be a reverse proxy for that server 
+   https://nginx.org/en/docs/http/ngx_http_upstream_module.html
+4. I want the reverse proxy to be accessible using servername "new_example.com"
+
+
+
+Task 2 && Task 3 => xyz.conf, example.conf , new_example.conf
