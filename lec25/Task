@@ -1,0 +1,12 @@
+1. create a server
+2. install nginx ( sudo dnf install -y nginx ), run systemctl start nginx 
+3. have a look at ( /etc/nginx/nginx.conf )
+4. copy the server directive from this file to /etc/nginx/conf.d/<yourname>.conf
+5. send me your public IP
+6. change the server name to <yourname>.omarwsaleh.com
+7. change your root directory to  /usr/share/nginx/<yourlastname>
+8. create /usr/share/nginx/<yourlastname>
+9. create index.html in /usr/share/nginx/<yourlastname>
+10. remove the line that starts with "include"
+11. run ngint -t ( to verify that your conf is correct )
+12. run systemctl reload nginx ( to reload the new conf )
