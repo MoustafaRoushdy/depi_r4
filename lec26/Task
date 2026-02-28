@@ -1,0 +1,19 @@
+Task 1
+1. start a server, make sure to allow both http,https and start nginx (systemctl start nginx)
+2. install nginx, certbot, python-certbot-nginx
+3. start nginx
+4. send my your public IP
+3. certbot certonly --nginx
+4. see /etc/letsencrypt/renewal/<yourname>.omarwsaleh.com.conf
+   a. to see where is the private key and the certificate
+5. edit /etc/nginx/nginx.conf  to uncommend the ssl section and add necessary details
+6. nginx -t > to verify the configuratin
+7. systemctl reload nginx
+
+Task 2
+1. configure nginx to work as a loadbalancer 
+2. use Weighted Roundroubin ( send me the link )
+     1. node1 (80%) 98.89.34.113
+     2. node2 (10%) 18.215.164.74
+     3. node3 (10%) 34.228.156.108
+see examples from here: https://nginx.org/en/docs/http/ngx_http_upstream_module.html
