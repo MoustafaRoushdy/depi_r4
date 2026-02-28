@@ -17,3 +17,11 @@ Task 2
      2. node2 (10%) 18.215.164.74
      3. node3 (10%) 34.228.156.108
 see examples from here: https://nginx.org/en/docs/http/ngx_http_upstream_module.html
+
+Task 3
+1. Use ip_hash method for loadbalancing instead of Weighted Roundroubin
+2. for help just search for ip_hash in the above docs
+
+Task 4
+1. use 	least_conn method for loadbalancing instead of ip_hash
+2. for help just search for  least_conn in the above docs
