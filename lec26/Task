@@ -25,3 +25,8 @@ Task 3
 Task 4
 1. use 	least_conn method for loadbalancing instead of ip_hash
 2. for help just search for  least_conn in the above docs
+
+
+Task 5
+1. Please generate a self signed certificate for <yourname>.com
+for your reference: https://www.baeldung.com/openssl-self-signed-cert
