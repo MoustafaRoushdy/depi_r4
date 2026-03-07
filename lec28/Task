@@ -21,7 +21,7 @@
 
 4. loadbalancer
   a. create a security group called alb-sg in abc vpc, allow http from every where and allow all outbound traffic
-  b. use public subnets in alb vpc
+  b. use public subnets in the abc vpc
   c. add listener port 80, target group alb-tg
   d. wait until the alb is active, test it's dns name in your browser and make sure that it's working fine
   e. working fine ? if yes, update the abc-ec2-sg to allow only http from the alb-sg
