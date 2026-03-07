@@ -1,8 +1,9 @@
 1. Create a vpc with 4 subnets two public and two private
    a. use vpc and more ( name the vpc abc )
+
 2. ec2 
    a. create a sg called abc-ec2-sg
-   b. allow http and ssh from every where
+   b. allow http and ssh from every where and allow all outbound traffic
    c. create two ec2 in abc vpc, one in us-east-1a public subnet
                       one in us-east-1b public subnet
    d. use this user data
@@ -11,7 +12,13 @@
       systemctl start httpd
       echo hello $(hostname) > /var/www/html/index.html
    e. access the public ip of your instances and make sure that they are working fine
-3. load balancer
+
+3. target group
   a. create a target group called abc-tg
   b. port 80 
   c. use abc vpc 
+  d. add the EC2s created instances to the target group
+
+4. loadbalancer
+  a. create a security group called alb-sg, allow http from every where and allow all outbound traffic
+  
