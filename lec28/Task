@@ -3,7 +3,7 @@
 2. ec2 
    a. create a sg called abc-ec2-sg
    b. allow http and ssh from every where
-   c. create two ec2, one in us-east-1a public subnet
+   c. create two ec2 in abc vpc, one in us-east-1a public subnet
                       one in us-east-1b public subnet
    d. use this user data
       #!/bin/bash
@@ -11,4 +11,7 @@
       systemctl start httpd
       echo hello $(hostname) > /var/www/html/index.html
    e. access the public ip of your instances and make sure that they are working fine
-
+3. load balancer
+  a. create a target group called abc-tg
+  b. port 80 
+  c. use abc vpc 
