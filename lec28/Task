@@ -1,0 +1,14 @@
+1. Create a vpc with 4 subnets two public and two private
+   a. use vpc and more ( name the vpc abc )
+2. ec2 
+   a. create a sg called abc-ec2-sg
+   b. allow http and ssh from every where
+   c. create two ec2, one in us-east-1a public subnet
+                      one in us-east-1b public subnet
+   d. use this user data
+      #!/bin/bash
+      dnf install httpd php php-mysqlnd -y 
+      systemctl start httpd
+      echo hello $(hostname) > /var/www/html/index.html
+   e. access the public ip of your instances and make sure that they are working fine
+
