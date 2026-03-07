@@ -20,5 +20,17 @@
   d. add the EC2s created instances to the target group
 
 4. loadbalancer
-  a. create a security group called alb-sg, allow http from every where and allow all outbound traffic
+  a. create a security group called alb-sg in abc vpc, allow http from every where and allow all outbound traffic
+  b. use public subnets in alb vpc
+  c. add listener port 80, target group alb-tg
+  d. wait until the alb is active, test it's dns name in your browser and make sure that it's working fine
+  e. working fine ? if yes, update the abc-ec2-sg to allow only http from the alb-sg
+
+5. RDS
+  a. create a security group called rds-sg allow only mysql(3306) trafffic from the abc-ec2-sg
+  b. create rds instance with free tier template in us-east-1a private subnet of abc vpc
+  c. choose a username and password
+  d. edit the index.php file with the correct username,password, host
+  e. replace the index.html with index.php and test
+
   
