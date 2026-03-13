@@ -16,3 +16,13 @@ aws s3 help
 
 
 I need two things, screenshot from all 4 operations, the policy you created
+
+
+create a user called iamuser
+attach the policy to it 
+generate security credentials
+run "aws configure" and enter your key id and secret access key 
+
+
+Homework:
+skill builder: Introduction to AWS Identity and Access Management (IAM)
