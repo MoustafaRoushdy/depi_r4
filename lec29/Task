@@ -1,0 +1,18 @@
+1. create a bucket called lec29-<randomstring>
+2. create an Iam policy that allows you to list a bucket
+                                           read objects
+                                           put objects 
+                                           delete objects
+for the privously created bucket
+3. create an iam role called EC2LabRole
+4. attach the policy to the role
+5. create ec2 instance and attache the EC2LabRole to it
+6. create a file called "hello_world"
+aws s3 cp hello_world s3://<bucketname>
+aws s3 cp s3://<bucketname>/hello_world  my_file.txt 
+aws s3 ls s3://<bucketname>
+aws s3 rm s3://<bucketname>/hello_world
+aws s3 help
+
+
+I need two things, screenshot from all 4 operations, the policy you created
