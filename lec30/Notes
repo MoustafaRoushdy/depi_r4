@@ -1,0 +1,8 @@
+1. git init => to initialize a git ( creates a .git dir )
+2. git config user.name "name"; git config user.email "email"
+3. Working area   VS    Staging area    VS commited area 
+4. git add <files names> => to add files to the staging area
+5. git commit -m "message" => move files from staging area to commited area
+6. git status => to see files in working,staging area
+7. git log    => to see all commits 
+8. .gitignore => add files that we don't want git to track here
