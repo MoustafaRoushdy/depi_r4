@@ -6,3 +6,11 @@
 6. git status => to see files in working,staging area
 7. git log    => to see all commits 
 8. .gitignore => add files that we don't want git to track here
+
+
+
+1. git log --oneline => display the commits every commit in one line
+2. git log --name-only => display the files changes in the commits
+3. git log -n <number of commits> => display certain number of commits
+4. HEAD => where are we now 
+5. BRANCH => git creates a master branch by default and it's moved always to the latest commit 
