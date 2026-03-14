@@ -6,7 +6,7 @@
 6. git status => to see files in working,staging area
 7. git log    => to see all commits 
 8. .gitignore => add files that we don't want git to track here
-
+9. git commit -am "message" => to add and commit only tracked files
 
 
 1. git log --oneline => display the commits every commit in one line
