@@ -14,3 +14,14 @@
 3. git log -n <number of commits> => display certain number of commits
 4. HEAD => where are we now 
 5. BRANCH => git creates a master branch by default and it's moved always to the latest commit 
+
+
+
+
+1. git checkout -b <branchname> => create a branch and switch to it
+2. git branch <branchname> => create a new branch
+3. git switch ; git checkout => to switch to a different branch
+4. git branch => see all branch and current branch
+5. git branch -d <branchname>  => to delete a branch
+6. git branch <branchname> <sourcebranch> => to create a branch from another branch
+7. git log <branchname> => to get the log of a specific branch
