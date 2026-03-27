@@ -1,0 +1,2 @@
+git remote add <alias> repourl 
+git push --set-upstream <alias> <branch>  => for only the first time and then you can only use "git push"
