@@ -1,0 +1,3 @@
+terraform init => to install terraform providers
+terraform plan => to see what resources will be created/updated/destroyed
+terraform apply => to create the resources
