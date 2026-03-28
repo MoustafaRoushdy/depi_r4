@@ -1,0 +1,10 @@
+Lab: https://kodekloud.com/studio/labs/terraform/terraform-variables-2
+Terraform Level 1: first 7 tasks: https://engineer.kodekloud.com/curriculum
+
+1. create a local terraform porject 
+2. search about how to use "profile" in provider block
+3. create a repo called terraform-project 
+4. invite me the your repo 
+5. create a vpc, two subnets in two azs 
+6. push your code to a feature branch
+7. create a PR and assign me to review it 
