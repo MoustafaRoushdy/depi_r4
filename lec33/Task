@@ -3,4 +3,20 @@
 3. Create a route table in the vpc
 4. Create a route in the route table to route the public traffic over the internet gateway
 5. Associate the rout table with the two subnets 
+6. Create S3 bucket with name prefix "abc-"
+7. Create  a security group 
+8. Allow 80,ssh inbound from every where
+9. Allow All outbound traffic
+10. Generate ssh key
+11. use the public key to create a keypair 
+12. Create ec2 instance in the first subnet
+      1. make sure it has a public IP
+      2. use the keypair created earlier
+      3. use the sg created earlier
+      4. use userdata in install nginx
+      5. Use the instance public dns name as output 
+      6. test that ssh/nginx are working fine and add screenshots to the repo 
 
+
+state file lab: https://kodekloud.com/studio/labs/terraform/terraform-state
+Terraform Level 1: first 14 tasks: https://engineer.kodekloud.com/curriculum
