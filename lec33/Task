@@ -1,0 +1,6 @@
+1. Go complete the Task in lec32 if not already compeleted
+2. Create an internet gateway in the Vpc
+3. Create a route table in the vpc
+4. Create a route in the route table to route the public traffic over the internet gateway
+5. Associate the rout table with the two subnets 
+
