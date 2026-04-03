@@ -1,0 +1,2 @@
+Reference attributes <resourcetype>.<resourcename>.attributename
+terraform state show <resourcetype>.<resourcename> => to see all attributes of already created resource 
