@@ -1,0 +1,9 @@
+1. compelete The task in lec33 first
+2. use data source to provide an amazon linux 2023 to the ec2 ( most recent one )
+2. create a db instance and use life cycle policies to prevent it from destruction 
+
+Labs:
+1. https://kodekloud.com/studio/labs/terraform/terraform-aws-cli-iam
+2. https://kodekloud.com/studio/labs/terraform/terraform-iam
+3. https://kodekloud.com/studio/labs/terraform/terraform-s3
+4. https://kodekloud.com/studio/labs/terraform/terraform-dynamodb
