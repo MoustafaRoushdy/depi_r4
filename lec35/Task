@@ -1,0 +1,4 @@
+1. Create a terraform.tf file in your terraform project
+2. add version constrain to your aws provider to allow it to install the latest minor version 
+docs: https://developer.hashicorp.com/terraform/language/expressions/version-constraints#operators
+
