@@ -2,3 +2,6 @@
 2. add version constrain to your aws provider to allow it to install the latest minor version 
 docs: https://developer.hashicorp.com/terraform/language/expressions/version-constraints#operators
 
+
+1. Move your state file to s3 in your own account
+docs: https://developer.hashicorp.com/terraform/language/backend/s3
