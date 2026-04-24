@@ -3,3 +3,8 @@ terraform untain <resourceaddress> => to mark a resoruce to not be replicate_sou
 TF_LOG env var => to set the verbosity of terraform logs "export TF_LOG=DEBUG"
 TF_LOG_PATH env var => to store terraform logs in a file "export TF_LOG_PATH=/tmp/logs"
 docs : https://developer.hashicorp.com/terraform/internals/debugging
+
+To Import a resource in terraform you need
+1. to define the resource in your configuration files 
+2. add at least the required arguments
+3. terraform import <resourceaddress> <resource identifier>
