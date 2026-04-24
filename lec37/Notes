@@ -1,0 +1,5 @@
+terraform taint resource address => to mark a resource for replacement
+terraform untain <resourceaddress> => to mark a resoruce to not be replicate_source_db
+TF_LOG env var => to set the verbosity of terraform logs "export TF_LOG=DEBUG"
+TF_LOG_PATH env var => to store terraform logs in a file "export TF_LOG_PATH=/tmp/logs"
+docs : https://developer.hashicorp.com/terraform/internals/debugging
