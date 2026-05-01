@@ -1,0 +1,7 @@
+1. Create a dir called "tf_mod_pro"
+2. create a dir in it called "modules"
+3. create a dir in the modules dir "s3"
+4. in the s3 dir create a main.tf file 
+5. create s3 with prefix "task1526"
+6. create a folders in the s3 with names "videos","images"
+7. use the s3 module in your root module
