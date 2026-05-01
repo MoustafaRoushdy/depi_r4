@@ -9,3 +9,12 @@
 
 1. Create KMS key ( symmetric, single region) with alias "my-custom-key"
 2. Create en ec2 instance and make sure it's encrypted using this key 
+
+
+1. Create ec2 instance
+2. take a snopshot from it's volume
+3. restore the snapshot to a new encrypted volume 
+4. stop the ec2 instance
+5. detach the old volume
+6. attach the new volume
+7. start the ec2 instance
