@@ -5,3 +5,7 @@
 5. create s3 with prefix "task1526"
 6. create a folders in the s3 with names "videos","images"
 7. use the s3 module in your root module
+
+
+1. Create KMS key ( symmetric, single region) with alias "my-custom-key"
+2. Create en ec2 instance and make sure it's encrypted using this key 
