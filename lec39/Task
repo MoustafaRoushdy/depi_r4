@@ -10,3 +10,16 @@ lec38
 
 lec39
 1. create a variable to the use to select if he need SSE-S3 or SSE-KMS https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
+
+tf workspace --help
+Usage: terraform [global options] workspace
+
+  new, list, show, select and delete Terraform workspaces.
+
+Subcommands:
+    delete    Delete a workspace
+    list      List Workspaces
+    new       Create a new workspace
+    select    Select a workspace
+    show      Show the name of the current workspace
+https://kodekloud.com/studio/labs/terraform/terraform-workspaces
